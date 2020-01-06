@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Студгородок ЮУрГУ</string>
+
+    <string name="main_screen_header">Студгородок ЮУрГУ</string>
+
+    <string name="nav_menu_title">Общежития</string>
+    <string name="nav_map_title">Карта</string>
+    <string name="nav_news_title">Новости</string>
+    <string name="nav_others_title">Другое</string>
+</resources>

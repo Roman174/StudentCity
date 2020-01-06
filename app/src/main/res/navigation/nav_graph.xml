@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navMenuFragment">
+    <fragment
+        android:id="@+id/navMenuFragment"
+        android:name="com.susu.studentcity.ui.pages.MenuFragment"
+        android:label="MenuFragment"/>
+    <fragment
+        android:id="@+id/navMapFragment"
+        android:name="com.susu.studentcity.ui.pages.MapFragment"
+        android:label="MapFragment"/>
+    <fragment
+        android:id="@+id/navNewsFragment"
+        android:name="com.susu.studentcity.ui.pages.NewsFragment"
+        android:label="FragmentNews" />
+    <fragment
+        android:id="@+id/navOthersFragment"
+        android:name="com.susu.studentcity.ui.pages.OthersFragment"
+        android:label="FragmentOther" />
+</navigation>
